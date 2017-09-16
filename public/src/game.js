@@ -5,7 +5,11 @@ function preload() {
 }
 
 function create() {
-//BOT
+
+    game.device.desktop;
+    game.scale.pageAlignHorizontally = !0;
+    game.scale.pageAlignVertically = !0;
+
     //  This sprite is using a texture atlas for all of its animation data
     var bot = game.add.sprite(200, 200, 'matrix');
 
